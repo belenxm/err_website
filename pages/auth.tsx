@@ -17,7 +17,7 @@ const Auth = () => {
 
     return (
         <div className="relative h-fit w-full bg-[url('/images/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
-            <div className="w-full h-fit lg:bg-opacity-90">
+            <div className="w-full h-fit lg:bg-opacity-50">
                 <nav className="px-12 py-5">
                     <img src="/images/logo.png" alt="Logo" className="h-12"/>
                 </nav>
