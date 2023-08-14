@@ -25,4 +25,4 @@ return { currentUser };
 
 };
 
-export default serverAuth;
+export default serverAuth; 
