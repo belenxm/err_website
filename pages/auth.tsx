@@ -53,7 +53,7 @@ const register = useCallback (async() => {
         <div className="relative h-fit w-full bg-[url('/images/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover">
             <div className="w-full h-fit lg:bg-opacity-50">
                 <nav className="px-12 py-5">
-                    <img src="/images/logo.png" alt="Logo" className="h-12"/>
+                    <img className='h-4 lg:h-7' src="/images/logo.png" alt="Logo"/>
                 </nav>
                 <div className="flex justify-center">
                     <div className="bg-black bg-opacity-70 px-16 py-16 self-center mt-2 log:w-2/5 rounded-md ">
