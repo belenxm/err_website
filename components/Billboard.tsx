@@ -1,10 +1,12 @@
-import useBillboard from '@/hooks/useBillboard';
+import useBillboard from '@/hooks/useBillboard'; 
 import React from 'react'
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 
-const Billboard = () => {
-    const { data } = useBillboard();
+const Billboard = () => {   // Esto es la definicion del componente Billboard, sin ningun paramentro.
+    const { data } = useBillboard(); // En esta instancia se utiliza el componente creado para obtener datos de la Api.
 
+
+    //Renderizacion del componente: -> representa un componente visual.
     return (
         <div className='relative h-[56.25vw]'>
             <video className='
